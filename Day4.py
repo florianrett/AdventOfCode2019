@@ -1,5 +1,9 @@
-input1 = 125730
-input2 = 579381 
+import InputGetter
+
+input = InputGetter.GetInput(4)[0]
+input1 = int(input.split('-')[0])
+input2 = int(input.split('-')[1])
+
 
 test = ""
 test2 = ""
